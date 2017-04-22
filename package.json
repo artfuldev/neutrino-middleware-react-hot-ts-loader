@@ -1,5 +1,5 @@
 {
-  "name": "neutrino-middleware-react-hot-ts-loader",
+  "name": "neutrino-middleware-ts-react-loader",
   "version": "1.0.0",
   "description": "Neutrino middleware for hot module replacement for react with typescript",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artfuldev/neutrino-middleware-react-hot-ts-loader.git"
+    "url": "git+https://github.com/artfuldev/neutrino-middleware-ts-react-loader.git"
   },
   "keywords": [
     "neutrino",
@@ -23,9 +23,9 @@
   "author": "Sudarsan Balaji <Sudarsan.Balaji@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/artfuldev/neutrino-middleware-react-hot-ts-loader/issues"
+    "url": "https://github.com/artfuldev/neutrino-middleware-ts-react-loader/issues"
   },
-  "homepage": "https://github.com/artfuldev/neutrino-middleware-react-hot-ts-loader#readme",
+  "homepage": "https://github.com/artfuldev/neutrino-middleware-ts-react-loader#readme",
   "dependencies": {
     "react-hot-loader": "3.0.0-beta.6",
     "ts-loader": "^2.0.3"
