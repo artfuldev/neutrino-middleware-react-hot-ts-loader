@@ -1,7 +1,7 @@
 module.exports = ({ config }, options) => config.module
   .rule('typescript')
     .test(/\.tsx?$/)
-      .use('react_hot')
+      .use('react')
         .loader(require.resolve('react-hot-loader/webpack'))
         .end()
       .use('ts')

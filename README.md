@@ -31,9 +31,9 @@
 and plug it into Neutrino:
 
 ```js
-const react_hot_typescript = require('neutrino-middleware-ts-react-loader');
+const typescript = require('neutrino-middleware-ts-react-loader');
 
-neutrino.use(react_hot_typescript);
+neutrino.use(typescript);
 ```
 
 ## Customization
@@ -45,7 +45,7 @@ ready to make changes.
 
 The following is a list of rules and their identifiers which can be overridden:
 
-- `typescript`: Allows react hot module replacement with typescript. Contains two loaders named `react_hot` and  `ts` which use `react-hot-loader` and `ts-loader` respectively.
+- `typescript`: Allows react hot module replacement with typescript. Contains two loaders named `react` and  `ts` which use `react-hot-loader` and `ts-loader` respectively.
 
 [npm-image]: https://img.shields.io/npm/v/neutrino-middleware-ts-react-loader.svg
 [npm-downloads]: https://img.shields.io/npm/dt/neutrino-middleware-ts-react-loader.svg
